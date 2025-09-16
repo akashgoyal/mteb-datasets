@@ -1,0 +1,20 @@
+sudo apt update
+sudo apt install -y curl git build-essential \
+  libssl-dev zlib1g-dev libbz2-dev libreadline-dev \
+  libsqlite3-dev wget llvm libncurses5-dev libncursesw5-dev \
+  xz-utils tk-dev libffi-dev liblzma-dev python3-pip
+
+git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.14.0
+
+echo '. "$HOME/.asdf/asdf.sh"' >> ~/.bashrc
+echo '. "$HOME/.asdf/completions/asdf.bash"' >> ~/.bashrc
+source ~/.bashrc
+
+asdf --version
+
+asdf plugin add python
+asdf plugin add nodejs
+
+asdf install python 3.10.0
+
+###
