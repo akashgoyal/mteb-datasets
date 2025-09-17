@@ -1,0 +1,56 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "scifact",
+  "dataset_size": 33677,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/mteb/scifact@cf10ab6856b15b0e670ef8ae5dae4e266c12d035/qrels/train.jsonl": {
+      "num_bytes": 53993,
+      "checksum": null
+    },
+    "hf://datasets/mteb/scifact@cf10ab6856b15b0e670ef8ae5dae4e266c12d035/qrels/test.jsonl": {
+      "num_bytes": 19940,
+      "checksum": null
+    }
+  },
+  "download_size": 73933,
+  "features": {
+    "query-id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "corpus-id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "score": {
+      "dtype": "float64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 107610,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 24585,
+      "num_examples": 919,
+      "dataset_name": "scifact"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 9092,
+      "num_examples": 339,
+      "dataset_name": "scifact"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

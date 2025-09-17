@@ -1,0 +1,46 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "arguana",
+  "dataset_size": 111736,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/mteb/arguana@c035584c70e9a0e5738574ca5b3b929e2680238f/qrels/test.jsonl": {
+      "num_bytes": 156728,
+      "checksum": null
+    }
+  },
+  "download_size": 156728,
+  "features": {
+    "query-id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "corpus-id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "score": {
+      "dtype": "float64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 268464,
+  "splits": {
+    "test": {
+      "name": "test",
+      "num_bytes": 111736,
+      "num_examples": 1406,
+      "dataset_name": "arguana"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

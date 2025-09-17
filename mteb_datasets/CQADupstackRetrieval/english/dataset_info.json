@@ -1,0 +1,195 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "cqadupstack-retrieval",
+  "dataset_size": 30947419,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/mteb/cqadupstack-retrieval@11452ff64abeb3a37db5e0cd75bfec4763c11d61/data/android-00000-of-00001.json.gz": {
+      "num_bytes": 555190,
+      "checksum": null
+    },
+    "hf://datasets/mteb/cqadupstack-retrieval@11452ff64abeb3a37db5e0cd75bfec4763c11d61/data/english-00000-of-00001.json.gz": {
+      "num_bytes": 970792,
+      "checksum": null
+    },
+    "hf://datasets/mteb/cqadupstack-retrieval@11452ff64abeb3a37db5e0cd75bfec4763c11d61/data/gaming-00000-of-00001.json.gz": {
+      "num_bytes": 1117497,
+      "checksum": null
+    },
+    "hf://datasets/mteb/cqadupstack-retrieval@11452ff64abeb3a37db5e0cd75bfec4763c11d61/data/gis-00000-of-00001.json.gz": {
+      "num_bytes": 924012,
+      "checksum": null
+    },
+    "hf://datasets/mteb/cqadupstack-retrieval@11452ff64abeb3a37db5e0cd75bfec4763c11d61/data/mathematica-00000-of-00001.json.gz": {
+      "num_bytes": 386709,
+      "checksum": null
+    },
+    "hf://datasets/mteb/cqadupstack-retrieval@11452ff64abeb3a37db5e0cd75bfec4763c11d61/data/physics-00000-of-00001.json.gz": {
+      "num_bytes": 946388,
+      "checksum": null
+    },
+    "hf://datasets/mteb/cqadupstack-retrieval@11452ff64abeb3a37db5e0cd75bfec4763c11d61/data/programmers-00000-of-00001.json.gz": {
+      "num_bytes": 841760,
+      "checksum": null
+    },
+    "hf://datasets/mteb/cqadupstack-retrieval@11452ff64abeb3a37db5e0cd75bfec4763c11d61/data/stats-00000-of-00001.json.gz": {
+      "num_bytes": 981453,
+      "checksum": null
+    },
+    "hf://datasets/mteb/cqadupstack-retrieval@11452ff64abeb3a37db5e0cd75bfec4763c11d61/data/tex-00000-of-00001.json.gz": {
+      "num_bytes": 1555984,
+      "checksum": null
+    },
+    "hf://datasets/mteb/cqadupstack-retrieval@11452ff64abeb3a37db5e0cd75bfec4763c11d61/data/unix-00000-of-00001.json.gz": {
+      "num_bytes": 1149459,
+      "checksum": null
+    },
+    "hf://datasets/mteb/cqadupstack-retrieval@11452ff64abeb3a37db5e0cd75bfec4763c11d61/data/webmasters-00000-of-00001.json.gz": {
+      "num_bytes": 437123,
+      "checksum": null
+    },
+    "hf://datasets/mteb/cqadupstack-retrieval@11452ff64abeb3a37db5e0cd75bfec4763c11d61/data/wordpress-00000-of-00001.json.gz": {
+      "num_bytes": 1047494,
+      "checksum": null
+    }
+  },
+  "download_size": 10913861,
+  "features": {
+    "corpus": {
+      "ids": {
+        "feature": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      },
+      "sentences": {
+        "feature": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      }
+    },
+    "queries": {
+      "ids": {
+        "feature": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      },
+      "sentences": {
+        "feature": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      }
+    },
+    "relevant_docs": {
+      "ids": {
+        "feature": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      },
+      "relevant_docs": {
+        "feature": {
+          "feature": {
+            "dtype": "string",
+            "_type": "Value"
+          },
+          "_type": "Sequence"
+        },
+        "_type": "Sequence"
+      }
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 41861280,
+  "splits": {
+    "android": {
+      "name": "android",
+      "num_bytes": 1568563,
+      "num_examples": 1,
+      "dataset_name": "cqadupstack-retrieval"
+    },
+    "english": {
+      "name": "english",
+      "num_bytes": 2688422,
+      "num_examples": 1,
+      "dataset_name": "cqadupstack-retrieval"
+    },
+    "gaming": {
+      "name": "gaming",
+      "num_bytes": 3013800,
+      "num_examples": 1,
+      "dataset_name": "cqadupstack-retrieval"
+    },
+    "gis": {
+      "name": "gis",
+      "num_bytes": 2616077,
+      "num_examples": 1,
+      "dataset_name": "cqadupstack-retrieval"
+    },
+    "mathematica": {
+      "name": "mathematica",
+      "num_bytes": 1118935,
+      "num_examples": 1,
+      "dataset_name": "cqadupstack-retrieval"
+    },
+    "physics": {
+      "name": "physics",
+      "num_bytes": 2694629,
+      "num_examples": 1,
+      "dataset_name": "cqadupstack-retrieval"
+    },
+    "programmers": {
+      "name": "programmers",
+      "num_bytes": 2348809,
+      "num_examples": 1,
+      "dataset_name": "cqadupstack-retrieval"
+    },
+    "stats": {
+      "name": "stats",
+      "num_bytes": 3038404,
+      "num_examples": 1,
+      "dataset_name": "cqadupstack-retrieval"
+    },
+    "tex": {
+      "name": "tex",
+      "num_bytes": 4435225,
+      "num_examples": 1,
+      "dataset_name": "cqadupstack-retrieval"
+    },
+    "unix": {
+      "name": "unix",
+      "num_bytes": 3096433,
+      "num_examples": 1,
+      "dataset_name": "cqadupstack-retrieval"
+    },
+    "webmasters": {
+      "name": "webmasters",
+      "num_bytes": 1225166,
+      "num_examples": 1,
+      "dataset_name": "cqadupstack-retrieval"
+    },
+    "wordpress": {
+      "name": "wordpress",
+      "num_bytes": 3102956,
+      "num_examples": 1,
+      "dataset_name": "cqadupstack-retrieval"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

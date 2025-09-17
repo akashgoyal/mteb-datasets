@@ -1,0 +1,46 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "touche2020",
+  "dataset_size": 125677,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/mteb/touche2020@a34f9a33db75fa0cbb21bb5cfc3dae8dc8bec93f/qrels/test.jsonl": {
+      "num_bytes": 196525,
+      "checksum": null
+    }
+  },
+  "download_size": 196525,
+  "features": {
+    "query-id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "corpus-id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "score": {
+      "dtype": "float64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 322202,
+  "splits": {
+    "test": {
+      "name": "test",
+      "num_bytes": 125677,
+      "num_examples": 2214,
+      "dataset_name": "touche2020"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

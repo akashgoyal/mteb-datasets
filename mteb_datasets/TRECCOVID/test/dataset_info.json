@@ -1,0 +1,46 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "trec-covid",
+  "dataset_size": 1710499,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/mteb/trec-covid@44c0d5a1a986eedaaf740f2aa20922584f0ed045/qrels/test.jsonl": {
+      "num_bytes": 3833253,
+      "checksum": null
+    }
+  },
+  "download_size": 3833253,
+  "features": {
+    "query-id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "corpus-id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "score": {
+      "dtype": "float64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 5543752,
+  "splits": {
+    "test": {
+      "name": "test",
+      "num_bytes": 1710499,
+      "num_examples": 66336,
+      "dataset_name": "trec-covid"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

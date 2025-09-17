@@ -1,0 +1,46 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "climate-fever",
+  "dataset_size": 177299,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/mteb/climate-fever@7a447f64511569d4c283bc5d1d166610051558fd/qrels/test.jsonl": {
+      "num_bytes": 327467,
+      "checksum": null
+    }
+  },
+  "download_size": 327467,
+  "features": {
+    "query-id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "corpus-id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "score": {
+      "dtype": "float64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 504766,
+  "splits": {
+    "test": {
+      "name": "test",
+      "num_bytes": 177299,
+      "num_examples": 4681,
+      "dataset_name": "climate-fever"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

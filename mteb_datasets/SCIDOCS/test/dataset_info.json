@@ -1,0 +1,46 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "scidocs",
+  "dataset_size": 2873088,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/mteb/scidocs@955fa095d8dfece60ea5b5d8a1377a6e8b6c8b93/qrels/test.jsonl": {
+      "num_bytes": 3830784,
+      "checksum": null
+    }
+  },
+  "download_size": 3830784,
+  "features": {
+    "query-id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "corpus-id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "score": {
+      "dtype": "float64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 6703872,
+  "splits": {
+    "test": {
+      "name": "test",
+      "num_bytes": 2873088,
+      "num_examples": 29928,
+      "dataset_name": "scidocs"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

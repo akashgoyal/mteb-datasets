@@ -1,0 +1,66 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "msmarco",
+  "dataset_size": 15872193,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/mteb/msmarco@49b09e5f3736c430f448d07150a5c2d425c24ce3/qrels/train.jsonl": {
+      "num_bytes": 32432123,
+      "checksum": null
+    },
+    "hf://datasets/mteb/msmarco@49b09e5f3736c430f448d07150a5c2d425c24ce3/qrels/dev.jsonl": {
+      "num_bytes": 455654,
+      "checksum": null
+    },
+    "hf://datasets/mteb/msmarco@49b09e5f3736c430f448d07150a5c2d425c24ce3/qrels/test.jsonl": {
+      "num_bytes": 566752,
+      "checksum": null
+    }
+  },
+  "download_size": 33454529,
+  "features": {
+    "query-id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "corpus-id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "score": {
+      "dtype": "float64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 49326722,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 15384091,
+      "num_examples": 532751,
+      "dataset_name": "msmarco"
+    },
+    "dev": {
+      "name": "dev",
+      "num_bytes": 217670,
+      "num_examples": 7437,
+      "dataset_name": "msmarco"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 270432,
+      "num_examples": 9260,
+      "dataset_name": "msmarco"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

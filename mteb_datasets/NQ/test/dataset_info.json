@@ -1,0 +1,46 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "nq",
+  "dataset_size": 133323,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/mteb/nq@b84726e65fd226125cf7c0cbeeb5c214d49e8187/qrels/test.jsonl": {
+      "num_bytes": 267755,
+      "checksum": null
+    }
+  },
+  "download_size": 267755,
+  "features": {
+    "query-id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "corpus-id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "score": {
+      "dtype": "float64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 401078,
+  "splits": {
+    "test": {
+      "name": "test",
+      "num_bytes": 133323,
+      "num_examples": 4201,
+      "dataset_name": "nq"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
